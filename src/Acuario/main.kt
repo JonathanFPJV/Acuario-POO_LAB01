@@ -10,7 +10,7 @@ fun construirAcuario() {
     val acuario3 = Acuario(alto = 35, largo = 110)
     acuario3.imprimirTamano()
     // todo personalizado
-    val acuario4 = Acuario(ancho = 25, alto = 35, largo = 110)
+    val acuario4 = Acuario(ancho = 18, alto = 35, largo = 110)
     acuario4.imprimirTamano()
 
     val acuario6 = Acuario(numeroDePeces = 29)
@@ -28,8 +28,6 @@ fun construirAcuario() {
     miAcuario.imprimirTamano()
     val miTorre = TanqueTorre(diametro = 25, alto = 40)
     miTorre.imprimirTamano()
-
-
 }
 
 
